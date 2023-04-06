@@ -4,24 +4,24 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: SIZES.large,
+    marginTop: SIZES.twenty,
     backgroundColor: "#FFF",
-    borderRadius: SIZES.medium,
-    padding: SIZES.medium,
+    borderRadius: SIZES.sixteen,
+    padding: SIZES.sixteen,
   },
   title: {
-    fontSize: SIZES.large,
+    fontSize: SIZES.twenty,
     color: COLORS.primary,
     fontFamily: FONT.bold,
   },
   pointsContainer: {
-    marginVertical: SIZES.small,
+    marginVertical: SIZES.twelve,
   },
   pointWrapper: {
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
-    marginVertical: SIZES.small / 1.25,
+    marginVertical: SIZES.twelve / 1.25,
   },
   pointDot: {
     width: 6,
@@ -31,10 +31,10 @@ const styles = StyleSheet.create({
     marginTop: 6,
   },
   pointText: {
-    fontSize: SIZES.medium - 2,
+    fontSize: SIZES.sixteen - 2,
     color: COLORS.gray,
     fontFamily: FONT.regular,
-    marginLeft: SIZES.small,
+    marginLeft: SIZES.twelve,
   },
 });
 

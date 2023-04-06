@@ -4,27 +4,27 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: SIZES.xLarge,
+    marginTop: SIZES.twentyFour,
   },
   header: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginTop: SIZES.small,
+    marginTop: SIZES.twelve,
   },
   headerTitle: {
-    fontSize: SIZES.large,
+    fontSize: SIZES.twenty,
     fontFamily: FONT.medium,
     color: COLORS.primary,
   },
   headerBtn: {
-    fontSize: SIZES.medium,
+    fontSize: SIZES.sixteen,
     fontFamily: FONT.medium,
     color: COLORS.gray,
   },
   cardsContainer: {
-    marginTop: SIZES.medium,
-    gap: SIZES.small,
+    marginTop: SIZES.sixteen,
+    gap: SIZES.twelve,
   },
 });
 

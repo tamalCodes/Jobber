@@ -4,21 +4,21 @@ import { COLORS, SHADOWS, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: SIZES.small,
-    marginBottom: SIZES.small / 2,
+    marginTop: SIZES.twelve,
+    marginBottom: SIZES.twelve / 2,
   },
   btn: (name, activeTab) => ({
-    paddingVertical: SIZES.medium,
-    paddingHorizontal: SIZES.xLarge,
+    paddingVertical: SIZES.sixteen,
+    paddingHorizontal: SIZES.twentyFour,
     backgroundColor: name === activeTab ? COLORS.primary : "#F3F4F8",
-    borderRadius: SIZES.medium,
+    borderRadius: SIZES.sixteen,
     marginLeft: 2,
     ...SHADOWS.medium,
     shadowColor: COLORS.white,
   }),
   btnText: (name, activeTab) => ({
     fontFamily: "DMMedium",
-    fontSize: SIZES.small,
+    fontSize: SIZES.twelve,
     color: name === activeTab ? "#C3BFCC" : "#AAA9B8",
   }),
 });
