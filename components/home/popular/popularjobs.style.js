@@ -4,7 +4,7 @@ import { FONT, SIZES, COLORS } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: SIZES.twentyFour,
+    marginTop: 40,
   },
   header: {
     flexDirection: "row",
@@ -13,12 +13,12 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: SIZES.twenty,
-    fontFamily: FONT.medium,
+    fontFamily: FONT.poppins,
     color: COLORS.primary,
   },
   headerBtn: {
     fontSize: SIZES.sixteen,
-    fontFamily: FONT.medium,
+    fontFamily: FONT.poppins,
     color: COLORS.gray,
   },
   cardsContainer: {

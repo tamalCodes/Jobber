@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     borderColor: activeJobType === item ? COLORS.secondary : COLORS.lightblack,
   }),
   tabText: (activeJobType, item) => ({
-    fontFamily: FONT.medium,
+    fontFamily: FONT.poppins,
     color: activeJobType === item ? COLORS.secondary : COLORS.lightblack,
   }),
 });

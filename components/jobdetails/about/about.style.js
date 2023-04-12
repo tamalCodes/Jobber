@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   headText: {
     fontSize: SIZES.twenty,
     color: COLORS.primary,
-    fontFamily: FONT.bold,
+    fontFamily: FONT.poppins,
   },
   contentBox: {
     marginVertical: SIZES.twelve,
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   contextText: {
     fontSize: SIZES.sixteen - 2,
     color: COLORS.gray,
-    fontFamily: FONT.regular,
+    fontFamily: FONT.poppins,
     marginVertical: SIZES.twelve / 1.25,
   },
 });

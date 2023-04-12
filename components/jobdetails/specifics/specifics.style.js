@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: SIZES.twenty,
     color: COLORS.primary,
-    fontFamily: FONT.bold,
+    fontFamily: FONT.poppins,
   },
   pointsContainer: {
     marginVertical: SIZES.twelve,
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   pointText: {
     fontSize: SIZES.sixteen - 2,
     color: COLORS.gray,
-    fontFamily: FONT.regular,
+    fontFamily: FONT.poppins,
     marginLeft: SIZES.twelve,
   },
 });

@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   jobTitle: {
     fontSize: SIZES.twenty,
     color: COLORS.primary,
-    fontFamily: FONT.bold,
+    fontFamily: FONT.poppins,
     textAlign: "center",
   },
   companyInfoBox: {
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   companyName: {
     fontSize: SIZES.sixteen - 2,
     color: COLORS.primary,
-    fontFamily: FONT.medium,
+    fontFamily: FONT.poppins,
   },
   locationBox: {
     flexDirection: "row",
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   locationName: {
     fontSize: SIZES.sixteen - 2,
     color: COLORS.gray,
-    fontFamily: FONT.regular,
+    fontFamily: FONT.poppins,
     marginLeft: 2,
   },
 });

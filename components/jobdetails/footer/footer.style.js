@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   applyBtnText: {
     fontSize: SIZES.sixteen,
     color: COLORS.white,
-    fontFamily: FONT.bold,
+    fontFamily: FONT.poppins,
   },
 });
 

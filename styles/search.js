@@ -7,13 +7,13 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   searchTitle: {
-    fontFamily: FONT.bold,
+    fontFamily: FONT.poppins,
     fontSize: SIZES.twentyFour,
     color: COLORS.primary,
   },
   noOfSearchedJobs: {
     marginTop: 2,
-    fontFamily: FONT.medium,
+    fontFamily: FONT.poppins,
     fontSize: SIZES.twelve,
     color: COLORS.primary,
   },
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.white,
   },
   paginationText: {
-    fontFamily: FONT.bold,
+    fontFamily: FONT.poppins,
     fontSize: SIZES.sixteen,
     color: COLORS.primary,
   },

@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   companyName: {
     fontSize: SIZES.sixteen,
-    fontFamily: FONT.regular,
+    fontFamily: FONT.poppins,
     color: "#B3AEC6",
     marginTop: SIZES.twelve / 1.5,
   },
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   jobName: (selectedJob, item) => ({
     fontSize: SIZES.twenty,
-    fontFamily: FONT.medium,
+    fontFamily: FONT.poppins,
     color: selectedJob === item.job_id ? COLORS.white : COLORS.primary,
   }),
   infoWrapper: {
@@ -44,14 +44,14 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start",
     alignItems: "center",
   },
-  publisher: (selectedJob) => ({
+  publisher: (selectedJob, item) => ({
     fontSize: SIZES.sixteen - 2,
-    fontFamily: FONT.bold,
+    fontFamily: FONT.poppins,
     color: selectedJob === item.job_id ? COLORS.white : COLORS.primary,
   }),
   location: {
     fontSize: SIZES.sixteen - 2,
-    fontFamily: FONT.regular,
+    fontFamily: FONT.poppins,
     color: "#B3AEC6",
   },
 });
