@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-import { COLORS, SHADOWS, SIZES } from "../../../../constants";
+import { COLORS, FONT, SHADOWS, SIZES } from "../../../../constants";
 
 const styles = StyleSheet.create({
   container: {
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  logImage: {
+  logoImage: {
     width: "70%",
     height: "70%",
   },
@@ -32,12 +32,12 @@ const styles = StyleSheet.create({
   },
   jobName: {
     fontSize: SIZES.sixteen,
-    fontFamily: "DMBold",
+    fontFamily: FONT.poppins,
     color: COLORS.primary,
   },
   jobType: {
     fontSize: SIZES.twelve + 2,
-    fontFamily: "DMRegular",
+    fontFamily: FONT.poppins,
     color: COLORS.gray,
     marginTop: 3,
     textTransform: "capitalize",
