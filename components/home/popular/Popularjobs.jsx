@@ -12,7 +12,7 @@ const rapidapihost = RAPID_API_HOST;
 
 const Popularjobs = () => {
 
-  const { popularjobs, error, isLoading, refetch } = useFetch("search", {
+  const { data, error, isLoading, refetch } = useFetch("search", {
     query: "React developer",
     num_pages: 1,
   })
@@ -44,7 +44,7 @@ const Popularjobs = () => {
           <Text>Something went wrong, please try again later</Text>
         ) : (
           <FlatList
-            data={popularjobs}
+            data={data}
 
             renderItem={({ item }) => (
               <PopularJobCard

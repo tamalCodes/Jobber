@@ -9,7 +9,7 @@ import NearbyJobCard from "../../common/cards/nearby/NearbyJobCard";
 
 const Nearbyjobs = () => {
   const router = useRouter();
-  const { popularjobs, error, isLoading, refetch } = useFetch("search", {
+  const { data, error, isLoading, refetch } = useFetch("search", {
     query: "React developer",
     num_pages: 1,
   });
@@ -31,7 +31,7 @@ const Nearbyjobs = () => {
         ) : error ? (
           <Text>Something went wrong</Text>
         ) : (
-          popularjobs?.map((job) => (
+          data?.map((job) => (
             <NearbyJobCard
               job={job}
               key={`nearby-job-${job.job_id}`}

@@ -4,7 +4,7 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginVertical: SIZES.sixteen,
+    marginVertical: SIZES.twenty,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -14,29 +14,29 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#FFF",
-    borderRadius: SIZES.twenty,
+    borderRadius: SIZES.twentyFour,
   },
   logoImage: {
     width: "80%",
     height: "80%",
   },
   jobTitleBox: {
-    marginTop: SIZES.twelve,
+    marginTop: SIZES.eighteen,
   },
   jobTitle: {
-    fontSize: SIZES.twenty,
+    fontSize: SIZES.twentyFour,
     color: COLORS.primary,
     fontFamily: FONT.poppins,
     textAlign: "center",
   },
   companyInfoBox: {
-    marginTop: SIZES.twelve / 2,
+    marginTop: SIZES.eighteen / 2,
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
   },
   companyName: {
-    fontSize: SIZES.sixteen - 2,
+    fontSize: SIZES.twenty - 2,
     color: COLORS.primary,
     fontFamily: FONT.poppins,
   },
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     tintColor: COLORS.gray,
   },
   locationName: {
-    fontSize: SIZES.sixteen - 2,
+    fontSize: SIZES.twenty - 2,
     color: COLORS.gray,
     fontFamily: FONT.poppins,
     marginLeft: 2,

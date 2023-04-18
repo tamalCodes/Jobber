@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     height: 55,
     borderWidth: 1,
     borderColor: "#F37453",
-    borderRadius: SIZES.sixteen,
+    borderRadius: 8,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginLeft: SIZES.sixteen,
-    borderRadius: SIZES.sixteen,
+    borderRadius: 8,
   },
   applyBtnText: {
     fontSize: SIZES.sixteen,

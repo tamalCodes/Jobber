@@ -6,7 +6,7 @@ const rapidapikey = RAPID_API_KEY;
 const rapidapihost = RAPID_API_HOST;
 
 const useFetch = (endpoint, query) => {
-  const [popularjobs, setpopularjobs] = useState([]);
+  const [data, setData] = useState([]);
   const [error, setError] = useState(null);
   const [isLoading, setisLoading] = useState(false);
 
@@ -25,7 +25,7 @@ const useFetch = (endpoint, query) => {
       setisLoading(true);
 
       const response = await axios.request(options);
-      setpopularjobs(response.data.data);
+      setData(response.data.data);
 
       setisLoading(false);
     } catch (error) {
@@ -45,7 +45,7 @@ const useFetch = (endpoint, query) => {
     fetchData();
   };
 
-  return { popularjobs, error, isLoading, refetch };
+  return { data, error, isLoading, refetch };
 };
 
 export default useFetch;

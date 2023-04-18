@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-import { COLORS, SHADOWS, SIZES } from "../../../constants";
+import { COLORS, FONT, SHADOWS, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     shadowColor: COLORS.white,
   }),
   btnText: (name, activeTab) => ({
-    fontFamily: "DMMedium",
+    fontFamily: FONT.poppins,
     fontSize: SIZES.twelve,
     color: name === activeTab ? "#C3BFCC" : "#AAA9B8",
   }),
